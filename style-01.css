@@ -24,6 +24,9 @@ body {
   /* Set the text colour */
   color: #242121;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* Flex directives */
   /* 1. Set the display to flex */
 
@@ -44,6 +47,8 @@ body {
 */
 header {
   padding: 2rem 1rem;
+  background-color: #8c52de;
+  color: #5da9e3;
   /* 4. Set a cool background colour */
 
   /* 5. Set a cool text colour (or use #edf2f4) */
@@ -52,9 +57,8 @@ header {
 
 header h2 {
   /* 6. Set the text alignment to center */
-
-
   margin: 0;
+  text-align: center;
 }
 
 
@@ -83,6 +87,7 @@ main {
   color: #f1faee;
   border-radius: 20px;
   box-shadow: #315a72 0px 8px 40px;
+  align-self: center;
 }
 
 /*
@@ -93,6 +98,8 @@ main {
 */
 footer {
   padding: 2rem 1rem;
+  background-color: #e67cdb;
+  color: #6847ed;
   /* 8. Set a cool background colour (or use #1d3557) */
 
   /* 9. Set a cool text colour (or use #edf2f4) */
